@@ -266,20 +266,20 @@ if(maskGroup.isTouching(main)){
 
 
 
-//if(obstaclesGroup.isTouching(main)){
+if(obstaclesGroup.isTouching(main)){
     
- // gameState = END;
- //main.visible=false;
- //obstaclesGroup.destroyEach();
-  //sanGroup.destroyEach();
-  //injeGroup.destroyEach();
- //maskGroup.destroyEach();
-  //dieSound.play();
-  //vac1.visible = false;
+  gameState = END;
+ main.visible=false;
+ obstaclesGroup.destroyEach();
+  sanGroup.destroyEach();
+  injeGroup.destroyEach();
+ maskGroup.destroyEach();
+  dieSound.play();
+  vac1.visible = false;
  
 
  
-//} 
+} 
 
 
 
